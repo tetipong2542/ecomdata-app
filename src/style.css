@@ -1,0 +1,117 @@
+:root {
+  font-family: 'Noto Sans Thai', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+textarea#urlInput {
+  color: #333 !important;
+  font-family: 'Noto Sans Thai', sans-serif !important;
+}
+
+th.px-6.py-3.cursor-pointer {
+  width: 12%;
+}
+
+.min-w-full{
+  min-width: 1200px!important;
+}
+
+textarea#urlInput {
+  background: white;
+  border: 1px solid;
+}
+
+.overflow-x-auto {
+  overflow-x: scroll!important;
+}
+
+input, textarea, select {
+  color: #333 !important;
+  font-family: 'Noto Sans Thai', sans-serif !important;
+}
+
+/* Apply Noto Sans Thai to all text elements */
+body, h1, h2, h3, h4, h5, h6, p, span, div, button {
+  font-family: 'Noto Sans Thai', sans-serif !important;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
